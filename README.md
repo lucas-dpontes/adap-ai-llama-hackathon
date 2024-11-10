@@ -154,13 +154,13 @@ Método: POST
 Descrição: Limpa o histórico de conversação, permitindo ao usuário iniciar uma nova sessão de interação sem contexto anterior.
 Exemplo de Requisição:
 
-´´´json
+```json
 {
   "message": "Explique os fundamentos de cálculo",
   "temperature": 1.0,
   "max_tokens": 1024
 }
-
+```
 
 ## Exemplos de Respostas das APIs
 
