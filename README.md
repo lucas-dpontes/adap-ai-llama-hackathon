@@ -85,11 +85,16 @@ O `mindmapgenerator.py` é um módulo que gera mapas mentais com base em um tema
   - **Retorno**: JSON contendo o mapa mental, incluindo nós e conexões.
 
 - **Exemplo de Requisição**:
+
   ```json
-  {
-    "subject": "História da Matemática"
-  }
-  ```
+{
+  "message": "Explique os fundamentos de cálculo",
+  "temperature": 1.0,
+  "max_tokens": 1024
+}
+
+
+
 
 ---
 
