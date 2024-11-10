@@ -38,7 +38,7 @@ O `flashcardgenerator.py` é um módulo que utiliza a API do Groq para gerar fla
 
 ## Instalação e Execução
 Instalar dependências:
-```
+
 
 ```bash
 pip install fastapi pydantic groq
