@@ -123,6 +123,38 @@ O `wordsearchgenerator.py` é um módulo que gera caça-palavras com base em um 
   ```
 
 ---
+Educational Assistant
+O educationalassistant.py é um módulo projetado para interagir com os usuários em um formato conversacional, funcionando como um assistente educacional. O módulo utiliza um modelo avançado de linguagem para fornecer respostas detalhadas e contextualizadas baseadas nas interações do usuário.
+
+### 4Classe EducationalAssistant
+- **Métodos:**
+__init__(api_key: str): Inicializa a classe com a chave de API do Groq.
+send_message(user_message: str, temperature: float = 1.0, max_tokens: int = 1024) -> str: Envia uma mensagem para a API e retorna a resposta do assistente.
+clear_history(): Limpa o histórico de conversação do usuário, permitindo iniciar uma nova sessão de diálogo.
+Estrutura da API
+Endpoint: /send-message
+
+### Método: POST
+Descrição: Permite ao usuário enviar mensagens e receber respostas do assistente educacional.
+Parâmetros de Entrada:
+message (str): Mensagem do usuário.
+temperature (float, opcional): Controla a criatividade das respostas.
+max_tokens (int, opcional): Define o limite máximo de tokens para a resposta.
+Retorno: JSON contendo a resposta do assistente.
+Endpoint: /clear-history
+
+
+Método: POST
+Descrição: Limpa o histórico de conversação, permitindo ao usuário iniciar uma nova sessão de interação sem contexto anterior.
+Exemplo de Requisição:
+
+´´´json
+{
+  "message": "Explique os fundamentos de cálculo",
+  "temperature": 1.0,
+  "max_tokens": 1024
+}
+
 
 ## Exemplos de Respostas das APIs
 
