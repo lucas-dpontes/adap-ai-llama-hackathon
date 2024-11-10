@@ -34,6 +34,7 @@ O `flashcardgenerator.py` é um módulo que utiliza a API do Groq para gerar fla
   "subject": "História da Matemática e Finanças",
   "num_flashcards": 5
 }
+```
 
 ## Instalação e Execução
 Instalar dependências:
