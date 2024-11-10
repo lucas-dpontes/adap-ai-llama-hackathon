@@ -37,16 +37,18 @@ O `flashcardgenerator.py` é um módulo que utiliza a API do Groq para gerar fla
 
 ## Instalação e Execução
 Instalar dependências:
+```
 
 ```bash
 pip install fastapi pydantic groq
-
+```
 
 Executar a API:
 
 ```bash
 
 uvicorn flashcardgenerator:app --reload
+```
 Testar o endpoint:
 
 Envie uma requisição POST para http://127.0.0.1:8000/generate-flashcards com o corpo JSON acima.
