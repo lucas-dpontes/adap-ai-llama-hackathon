@@ -86,13 +86,13 @@ O `mindmapgenerator.py` é um módulo que gera mapas mentais com base em um tema
 
 - **Exemplo de Requisição**:
 
-  ```json
+```json
 {
   "message": "Explique os fundamentos de cálculo",
   "temperature": 1.0,
   "max_tokens": 1024
 }
-
+```
 
 
 
@@ -129,9 +129,10 @@ O `wordsearchgenerator.py` é um módulo que gera caça-palavras com base em um 
 
 ---
 Educational Assistant
+
 O educationalassistant.py é um módulo projetado para interagir com os usuários em um formato conversacional, funcionando como um assistente educacional. O módulo utiliza um modelo avançado de linguagem para fornecer respostas detalhadas e contextualizadas baseadas nas interações do usuário.
 
-### 4Classe EducationalAssistant
+### 4. Classe EducationalAssistant
 - **Métodos:**
 __init__(api_key: str): Inicializa a classe com a chave de API do Groq.
 send_message(user_message: str, temperature: float = 1.0, max_tokens: int = 1024) -> str: Envia uma mensagem para a API e retorna a resposta do assistente.
